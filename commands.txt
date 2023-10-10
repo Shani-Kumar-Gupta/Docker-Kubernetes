@@ -1,0 +1,8 @@
+1. Pull Docker images from Docker Hub-
+  docker pull hello-world
+
+2. To see the list of all docker images-
+  docker images
+
+3. To run an images -
+  docker run hello-world
