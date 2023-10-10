@@ -26,3 +26,10 @@
 
 9. Check docker container logs-
   docker logs sample-website
+
+10. Docker Exec- (Execute command on running container - instance of an image)
+  docker exec container_name echo "Hello World"
+  docker exec container_name ls
+  docker exec -it (connect container in interactive mode - so that we can run multiple commands) sample-website bash 
+
+  vim to edit the existing file
