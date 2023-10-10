@@ -1,0 +1,8 @@
+1. What is Docker or Why we use it?
+Ans: 
+
+2. Benefits of using Docker-
+  - Improve team productivity
+  - Reduce System erros
+
+// Cannot connect with docker deamon
