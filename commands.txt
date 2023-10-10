@@ -14,3 +14,15 @@
 
 5. How to give some meaning full name to aur runnning containers-
   docker run --name sample-website nginx
+
+6. Running container with port mapping-
+  docker run --name sample-website -p 80:80(port mapping) nginx
+
+7. Remove the docker container from the list-
+  docker rm image_name or container-id
+
+8. Run the container in detached mode-
+  docker run --name sample-website -p 80:80 -d nginx
+
+9. Check docker container logs-
+  docker logs sample-website

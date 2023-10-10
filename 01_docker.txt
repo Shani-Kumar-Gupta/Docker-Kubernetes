@@ -9,4 +9,12 @@ Container is the instance of an image
 
 // Essential Docker Functions and Commands:
 
+// Port Mapping and Logs
+Problem: Our Docker images is up and running but we are still unable to access it through localhost. 
+When we run localhost on browser what happening here is the browser is sending the request to port number 80 to our host machine.
+But somehow our host machine is not able to forward this request to the docker container.
+
+Solutions:
+docker run --name sample-website -p 80:80(port mapping) nginx
+
 // Cannot connect with docker deamon
