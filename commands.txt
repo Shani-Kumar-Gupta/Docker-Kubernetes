@@ -6,3 +6,11 @@
 
 3. To run an images -
   docker run hello-world
+
+4. List out all the running container on the system-
+  docker ps
+  docker ps --help
+  docker ps --all
+
+5. How to give some meaning full name to aur runnning containers-
+  docker run --name sample-website nginx

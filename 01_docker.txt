@@ -7,4 +7,6 @@ Ans:
 
 Container is the instance of an image
 
+// Essential Docker Functions and Commands:
+
 // Cannot connect with docker deamon
