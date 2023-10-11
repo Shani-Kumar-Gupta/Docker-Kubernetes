@@ -1,0 +1,11 @@
+As of now, we are using existing docker images from docker hub to ship our application.
+But what is you can to ship and bind your dependencies to the application.
+
+Where dockerfile comes into the picture- used to create custom images
+--> Create Dockerfile in your application
+--> Dockerfile consist of the line of code needs to be executed
+--> first line -> need to tell docker about the base image
+--> Add configuration
+--> Run below command
+  - docker build -t image_name directory_name
+--> Run the images now with the same command.
