@@ -45,4 +45,10 @@ but how if we can to do some changes in our host machine and same changes reflec
 
 --> Use Docker Volume
 
--- > mkdir sample-website
+--> mkdir sample-website
+--> cd sample-website
+--> pwd (copy pwd path)
+--> docker run --name sample-website -p 80:80 -d -v (paste the pwd path):(nginx html path) nginx
+    docker run --name sample-website -p 80:80 -d -v /Users/shanikumargupta/sample-website:/usr/share/nginx/html nginx
+
+    
