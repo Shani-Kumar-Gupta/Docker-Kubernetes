@@ -36,3 +36,13 @@
   -> first we need to install vim
   -> apt-get update
   -> apt-get install vim
+
+11. Stop running container-
+  docker stop sample-website
+
+docker exec command is working fine to do any changes in docker container and save it and get the result back.
+but how if we can to do some changes in our host machine and same changes reflected in docker container, to do that-
+
+--> Use Docker Volume
+
+-- > mkdir sample-website
